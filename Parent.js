@@ -1,8 +1,12 @@
 "use strict";
 
 class Run {
+    constructor(name) {
+        this.name = name;
+    }
+
     getName(){
-        return "Theepan";
+        return this.name;
     }
 
     static use(newMethods) {

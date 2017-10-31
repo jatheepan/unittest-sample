@@ -5,7 +5,7 @@ const expect = require('chai').expect;
 const sinon = require('sinon');
 const chai = require('chai');
 const sinonChai = require('sinon-chai');
-const mod = require('../index');
+const mod = require('../mod');
 
 chai.use(sinonChai);
 
