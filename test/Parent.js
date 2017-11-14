@@ -19,4 +19,11 @@ describe('class Run from Parent', () => {
         expect(name).to.be.a('string');
         expect(name).to.equal(args[0]);
     });
+
+    it('gives you a promise reject', () => {
+      instance.getUser().catch( error => {
+        expect( error ).is.not.ok;
+      });
+    });
+
 });

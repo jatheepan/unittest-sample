@@ -6,6 +6,7 @@ const sinon = require('sinon');
 const chai = require('chai');
 const sinonChai = require('sinon-chai');
 const mod = require('../mod');
+const plugin = require('../plugin');
 
 chai.use(sinonChai);
 
